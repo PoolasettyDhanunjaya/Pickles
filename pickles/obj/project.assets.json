@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P7113587\\Desktop\\pickles\\pickles\\pickles.csproj",
+      "projectUniqueName": "C:\\SET\\Pickles\\pickles\\pickles.csproj",
       "projectName": "pickles",
-      "projectPath": "C:\\Users\\P7113587\\Desktop\\pickles\\pickles\\pickles.csproj",
+      "projectPath": "C:\\SET\\Pickles\\pickles\\pickles.csproj",
       "packagesPath": "C:\\Users\\P7113587\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P7113587\\Desktop\\pickles\\pickles\\obj\\",
+      "outputPath": "C:\\SET\\Pickles\\pickles\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
