@@ -1,0 +1,49 @@
+﻿@model StudentMVP.Models.Student
+
+@{
+    ViewData["Title"] = "Add Student";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg p-4">
+                <h2 class="text-center mb-4 text-primary">Add Student</h2>
+
+                <form asp-action="Create" method="post">
+                    <div class="form-group">
+                        <label for="Name"><i class="fas fa-user"></i> Name</label>
+                        <input type="text" asp-for="Name" class="form-control" placeholder="Enter full name" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Age"><i class="fas fa-calendar"></i> Age</label>
+                        <input type="number" asp-for="Age" class="form-control" min="1" placeholder="Enter age" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Id"><i class="fas fa-id-badge"></i> ID</label>
+                        <input type="text" asp-for="Id" class="form-control" placeholder="Enter student ID" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Email"><i class="fas fa-envelope"></i> Email</label>
+                        <input type="email" asp-for="Email" class="form-control" placeholder="Enter email address" required />
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-success btn-lg">
+                            <i class="fas fa-check"></i> Submit
+                        </button>
+                        <a href="@Url.Action("Index", "Student")" class="btn btn-secondary btn-lg">
+                            <i class="fas fa-arrow-left"></i> Back
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- FontAwesome for icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">

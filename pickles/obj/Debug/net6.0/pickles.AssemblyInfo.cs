@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("pickles")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54dc5ddbaa92db95376f79d5763bb4208d5e04f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f7d49041e3d3e0209047d797603de03aed5861d")]
 [assembly: System.Reflection.AssemblyProductAttribute("pickles")]
 [assembly: System.Reflection.AssemblyTitleAttribute("pickles")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
